@@ -1,0 +1,25 @@
+-muwx
+-i C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718/keyboard.ino.elf
+-M
+-X 0x036c
+-C 0x3800
+-b HOME = 0x0000
+-b XSEG = 0x0094
+-b PSEG = 0x0094
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718
+-k C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto
+-l C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718/..\..\cores\8e5488871a3e6b9b92b1c7d7aa3aecf1\core.lib
+-l mcs51
+-l libsdcc
+-l liblong
+-l liblonglong
+-l libint
+-l libfloat
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718\sketch\keyboard.ino.cpp.rel
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718\sketch\src\userUsbHidKeyboard\USBHIDKeyboard.c.rel
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718\sketch\src\userUsbHidKeyboard\USBconstant.c.rel
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718\sketch\src\userUsbHidKeyboard\USBhandler.c.rel
+
+-e

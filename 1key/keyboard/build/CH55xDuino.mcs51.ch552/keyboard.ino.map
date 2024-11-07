@@ -1,0 +1,749 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+IABS3                               00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  l_CABS                          
+     00000000  l_GSINIT1                       
+     00000000  l_GSINIT5                       
+     00000000  l_IABS                          
+     00000000  l_ISEG                          
+     00000000  l_OSEG                          
+     00000000  l_PSEG                          
+     00000000  l_REG_BANK_2                    
+     00000000  l_REG_BANK_3                    
+     00000000  l_RSEG                          
+     00000000  l_RSEG0                         
+     00000000  l_RSEG1                         
+     00000000  l_XABS                          
+     00000000  l__CODE                         
+     00000000  s_BSEG                          
+     00000000  s_CABS                          
+     00000000  s_DSEG                          
+     00000000  s_HOME                          
+     00000000  s_IABS                          
+     00000000  s_IABS2                         
+     00000000  s_IABS3                         
+     00000000  s_ISEG                          
+     00000000  s_REG_BANK_0                    
+     00000000  s_RSEG                          
+     00000000  s_RSEG0                         
+     00000000  s_RSEG1                         
+     00000000  s_XABS                          
+     00000001  l_BIT_BANK                      
+     00000001  l_BSEG_BYTES                    
+     00000001  l_IABS3                         
+     00000003  l_GSINIT0                       
+     00000004  l_BSEG                          
+     00000004  l_GSFINAL                       
+     00000004  l_IABS2                         
+     00000008  l_REG_BANK_0                    
+     00000008  l_REG_BANK_1                    
+     00000008  s_REG_BANK_1                    
+     0000000A  l_GSINIT2                       
+     0000000C  _timer0_overflow_count_5th_byte    main
+     00000010  s_REG_BANK_2                    
+     00000012  l_GSINIT                        
+     00000018  s_REG_BANK_3                    
+     0000001F  l_XINIT                         
+     0000001F  l_XISEG                         
+     00000020  s_BSEG_BYTES                    
+     00000020  s__CODE                         
+     00000021  s_BIT_BANK                      
+     00000021  s_OSEG                          
+     00000022  l_GSINIT3                       
+     0000002A  l_GSINIT4                       
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+IABS3                               00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000002E  s_SSEG                          
+     0000004A  l_XSEG                          
+     0000006B  l_HOME                          
+     0000006B  s_GSINIT0                       
+     0000006E  s_GSINIT1                       
+     0000006E  s_GSINIT2                       
+     00000076  l_DSEG                          
+     00000078  s_GSINIT3                       
+     00000094  s_PSEG                          
+     00000094  s_XSEG                          
+     0000009A  s_GSINIT4                       
+     000000C4  s_GSINIT                        
+     000000C4  s_GSINIT5                       
+     000000D2  l_SSEG                          
+     000000D6  s_GSFINAL                       
+     000000DA  s_CSEG                          
+     000000DE  s_XISEG                         
+     00000100  l_IRAM                          
+     000001D3  l_CONST                         
+     00001037  l_CSEG                          
+     00001111  s_CONST                         
+     000012E4  s_XINIT                         
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+IABS2                               00000000    00000004 =           4. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  _timer0_overflow_count             main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _bp
+     00000000  _Ep0Buffer                         USBhandler
+     0000000A  _Ep1Buffer                         USBhandler
+     00000080  _ADC_CHAN0                         HardwareSerial1ISR
+     00000080  _ADC_CTRL                          HardwareSerial1ISR
+     00000081  _ADC_CHAN1                         HardwareSerial1ISR
+     00000081  _SP                                HardwareSerial1ISR
+     00000082  _DPL                               HardwareSerial1ISR
+     00000083  _CMP_CHAN                          HardwareSerial1ISR
+     00000083  _DPH                               HardwareSerial1ISR
+     00000084  _ADC_START                         HardwareSerial1ISR
+     00000084  _ROM_ADDR_L                        HardwareSerial1ISR
+     00000085  _ADC_IF                            HardwareSerial1ISR
+     00000085  _ROM_ADDR_H                        HardwareSerial1ISR
+     00000086  _CMP_IF                            HardwareSerial1ISR
+     00000086  _ROM_CTRL                          HardwareSerial1ISR
+     00000087  _CMPO                              HardwareSerial1ISR
+     00000087  _PCON                              HardwareSerial1ISR
+     00000088  _IT0                               HardwareSerial1ISR
+     00000088  _TCON                              HardwareSerial1ISR
+     00000089  _IE0                               HardwareSerial1ISR
+     00000089  _TMOD                              HardwareSerial1ISR
+     0000008A  _IT1                               HardwareSerial1ISR
+     0000008A  _TL0                               HardwareSerial1ISR
+     0000008B  _IE1                               HardwareSerial1ISR
+     0000008B  _TL1                               HardwareSerial1ISR
+     0000008C  _TH0                               HardwareSerial1ISR
+     0000008C  _TR0                               HardwareSerial1ISR
+     0000008D  _TF0                               HardwareSerial1ISR
+     0000008D  _TH1                               HardwareSerial1ISR
+     0000008E  _ROM_DATA_L                        HardwareSerial1ISR
+     0000008E  _TR1                               HardwareSerial1ISR
+     0000008F  _ROM_DATA_H                        HardwareSerial1ISR
+     0000008F  _TF1                               HardwareSerial1ISR
+     00000090  _CAP1                              HardwareSerial1ISR
+     00000090  _P1                                HardwareSerial1ISR
+     00000090  _P1_0                              HardwareSerial1ISR
+     00000090  _T2                                HardwareSerial1ISR
+     00000090  _TIN0                              HardwareSerial1ISR
+     00000091  _AIN0                              HardwareSerial1ISR
+     00000091  _CAP2                              HardwareSerial1ISR
+     00000091  _P1_1                              HardwareSerial1ISR
+     00000091  _T2EX                              HardwareSerial1ISR
+     00000091  _TIN1                              HardwareSerial1ISR
+     00000091  _USB_C_CTRL                        HardwareSerial1ISR
+     00000091  _VBUS2                             HardwareSerial1ISR
+     00000092  _P1_2                              HardwareSerial1ISR
+     00000092  _P1_MOD_OC                         HardwareSerial1ISR
+     00000092  _RXD_                              HardwareSerial1ISR
+     00000093  _P1_3                              HardwareSerial1ISR
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000093  _P1_DIR_PU                         HardwareSerial1ISR
+     00000093  _TXD_                              HardwareSerial1ISR
+     00000094  _AIN1                              HardwareSerial1ISR
+     00000094  _CAP1_                             HardwareSerial1ISR
+     00000094  _P1_4                              HardwareSerial1ISR
+     00000094  _SCS                               HardwareSerial1ISR
+     00000094  _T2_                               HardwareSerial1ISR
+     00000094  _TIN2                              HardwareSerial1ISR
+     00000094  _UCC1                              HardwareSerial1ISR
+     00000095  _AIN2                              HardwareSerial1ISR
+     00000095  _MOSI                              HardwareSerial1ISR
+     00000095  _P1_5                              HardwareSerial1ISR
+     00000095  _PWM1                              HardwareSerial1ISR
+     00000095  _TIN3                              HardwareSerial1ISR
+     00000095  _UCC2                              HardwareSerial1ISR
+     00000096  _MISO                              HardwareSerial1ISR
+     00000096  _P1_6                              HardwareSerial1ISR
+     00000096  _P3_MOD_OC                         HardwareSerial1ISR
+     00000096  _RXD1                              HardwareSerial1ISR
+     00000096  _TIN4                              HardwareSerial1ISR
+     00000097  _P1_7                              HardwareSerial1ISR
+     00000097  _P3_DIR_PU                         HardwareSerial1ISR
+     00000097  _SCK                               HardwareSerial1ISR
+     00000097  _TIN5                              HardwareSerial1ISR
+     00000097  _TXD1                              HardwareSerial1ISR
+     00000098  _RI                                HardwareSerial1ISR
+     00000098  _SCON                              HardwareSerial1ISR
+     00000099  _SBUF                              HardwareSerial1ISR
+     00000099  _TI                                HardwareSerial1ISR
+     0000009A  _ADC_CFG                           HardwareSerial1ISR
+     0000009A  _RB8                               HardwareSerial1ISR
+     0000009B  _PWM_DATA2                         HardwareSerial1ISR
+     0000009B  _TB8                               HardwareSerial1ISR
+     0000009C  _PWM_DATA1                         HardwareSerial1ISR
+     0000009C  _REN                               HardwareSerial1ISR
+     0000009D  _PWM_CTRL                          HardwareSerial1ISR
+     0000009D  _SM2                               HardwareSerial1ISR
+     0000009E  _PWM_CK_SE                         HardwareSerial1ISR
+     0000009E  _SM1                               HardwareSerial1ISR
+     0000009F  _ADC_DATA                          HardwareSerial1ISR
+     0000009F  _SM0                               HardwareSerial1ISR
+     000000A0  _P2                                HardwareSerial1ISR
+     000000A0  __XPAGE                            
+     000000A1  _SAFE_MOD                          HardwareSerial1ISR
+     000000A2  _XBUS_AUX                          HardwareSerial1ISR
+     000000A8  _EX0                               HardwareSerial1ISR
+     000000A8  _IE                                HardwareSerial1ISR
+     000000A9  _ET0                               HardwareSerial1ISR
+     000000A9  _WAKE_CTRL                         HardwareSerial1ISR
+     000000AA  _EX1                               HardwareSerial1ISR
+     000000AB  _ET1                               HardwareSerial1ISR
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000AC  _ES                                HardwareSerial1ISR
+     000000AD  _ET2                               HardwareSerial1ISR
+     000000AE  _E_DIS                             HardwareSerial1ISR
+     000000AF  _EA                                HardwareSerial1ISR
+     000000B0  _P3                                HardwareSerial1ISR
+     000000B0  _P3_0                              HardwareSerial1ISR
+     000000B0  _PWM1_                             HardwareSerial1ISR
+     000000B0  _RXD                               HardwareSerial1ISR
+     000000B1  _GLOBAL_CFG                        HardwareSerial1ISR
+     000000B1  _P3_1                              HardwareSerial1ISR
+     000000B1  _PWM2_                             HardwareSerial1ISR
+     000000B1  _TXD                               HardwareSerial1ISR
+     000000B2  _AIN3                              HardwareSerial1ISR
+     000000B2  _INT0                              HardwareSerial1ISR
+     000000B2  _P3_2                              HardwareSerial1ISR
+     000000B2  _TXD1_                             HardwareSerial1ISR
+     000000B2  _VBUS1                             HardwareSerial1ISR
+     000000B3  _INT1                              HardwareSerial1ISR
+     000000B3  _P3_3                              HardwareSerial1ISR
+     000000B4  _P3_4                              HardwareSerial1ISR
+     000000B4  _PWM2                              HardwareSerial1ISR
+     000000B4  _RXD1_                             HardwareSerial1ISR
+     000000B4  _T0                                HardwareSerial1ISR
+     000000B5  _P3_5                              HardwareSerial1ISR
+     000000B5  _T1                                HardwareSerial1ISR
+     000000B6  _P3_6                              HardwareSerial1ISR
+     000000B6  _UDP                               HardwareSerial1ISR
+     000000B7  _P3_7                              HardwareSerial1ISR
+     000000B7  _UDM                               HardwareSerial1ISR
+     000000B8  _IP                                HardwareSerial1ISR
+     000000B8  _PX0                               HardwareSerial1ISR
+     000000B9  _CLOCK_CFG                         HardwareSerial1ISR
+     000000B9  _PT0                               HardwareSerial1ISR
+     000000BA  _PX1                               HardwareSerial1ISR
+     000000BB  _PT1                               HardwareSerial1ISR
+     000000BC  _PS                                HardwareSerial1ISR
+     000000BD  _PT2                               HardwareSerial1ISR
+     000000BE  _PL_FLAG                           HardwareSerial1ISR
+     000000BF  _PH_FLAG                           HardwareSerial1ISR
+     000000C0  _SCON1                             HardwareSerial1ISR
+     000000C0  _U1RI                              HardwareSerial1ISR
+     000000C1  _SBUF1                             HardwareSerial1ISR
+     000000C1  _U1TI                              HardwareSerial1ISR
+     000000C2  _SBAUD1                            HardwareSerial1ISR
+     000000C2  _U1RB8                             HardwareSerial1ISR
+     000000C3  _TKEY_CTRL                         HardwareSerial1ISR
+     000000C3  _U1TB8                             HardwareSerial1ISR
+     000000C4  _TKEY_DATL                         HardwareSerial1ISR
+     000000C4  _U1REN                             HardwareSerial1ISR
+     000000C5  _TKEY_DATH                         HardwareSerial1ISR
+     000000C5  _U1SMOD                            HardwareSerial1ISR
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C6  _PIN_FUNC                          HardwareSerial1ISR
+     000000C7  _GPIO_IE                           HardwareSerial1ISR
+     000000C7  _U1SM0                             HardwareSerial1ISR
+     000000C8  _CP_RL2                            HardwareSerial1ISR
+     000000C8  _T2CON                             HardwareSerial1ISR
+     000000C9  _C_T2                              HardwareSerial1ISR
+     000000C9  _T2MOD                             HardwareSerial1ISR
+     000000CA  _RCAP2L                            HardwareSerial1ISR
+     000000CA  _TR2                               HardwareSerial1ISR
+     000000CB  _EXEN2                             HardwareSerial1ISR
+     000000CB  _RCAP2H                            HardwareSerial1ISR
+     000000CC  _TCLK                              HardwareSerial1ISR
+     000000CC  _TL2                               HardwareSerial1ISR
+     000000CD  _RCLK                              HardwareSerial1ISR
+     000000CD  _TH2                               HardwareSerial1ISR
+     000000CE  _EXF2                              HardwareSerial1ISR
+     000000CE  _T2CAP1L                           HardwareSerial1ISR
+     000000CF  _CAP1F                             HardwareSerial1ISR
+     000000CF  _T2CAP1H                           HardwareSerial1ISR
+     000000CF  _TF2                               HardwareSerial1ISR
+     000000D0  _P                                 HardwareSerial1ISR
+     000000D0  _PSW                               HardwareSerial1ISR
+     000000D1  _F1                                HardwareSerial1ISR
+     000000D1  _UDEV_CTRL                         HardwareSerial1ISR
+     000000D2  _OV                                HardwareSerial1ISR
+     000000D2  _UEP1_CTRL                         HardwareSerial1ISR
+     000000D3  _RS0                               HardwareSerial1ISR
+     000000D3  _UEP1_T_LEN                        HardwareSerial1ISR
+     000000D4  _RS1                               HardwareSerial1ISR
+     000000D4  _UEP2_CTRL                         HardwareSerial1ISR
+     000000D5  _F0                                HardwareSerial1ISR
+     000000D5  _UEP2_T_LEN                        HardwareSerial1ISR
+     000000D6  _AC                                HardwareSerial1ISR
+     000000D6  _UEP3_CTRL                         HardwareSerial1ISR
+     000000D7  _CY                                HardwareSerial1ISR
+     000000D7  _UEP3_T_LEN                        HardwareSerial1ISR
+     000000D8  _UIF_BUS_RST                       HardwareSerial1ISR
+     000000D8  _UIF_DETECT                        HardwareSerial1ISR
+     000000D8  _USB_INT_FG                        HardwareSerial1ISR
+     000000D9  _UIF_TRANSFER                      HardwareSerial1ISR
+     000000D9  _USB_INT_ST                        HardwareSerial1ISR
+     000000DA  _UIF_SUSPEND                       HardwareSerial1ISR
+     000000DA  _USB_MIS_ST                        HardwareSerial1ISR
+     000000DB  _UIF_HST_SOF                       HardwareSerial1ISR
+     000000DB  _USB_RX_LEN                        HardwareSerial1ISR
+     000000DC  _UEP0_CTRL                         HardwareSerial1ISR
+     000000DC  _UIF_FIFO_OV                       HardwareSerial1ISR
+     000000DD  _UEP0_T_LEN                        HardwareSerial1ISR
+     000000DD  _U_SIE_FREE                        HardwareSerial1ISR
+     000000DE  _UEP4_CTRL                         HardwareSerial1ISR
+     000000DE  _U_TOG_OK                          HardwareSerial1ISR
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000DF  _UEP4_T_LEN                        HardwareSerial1ISR
+     000000DF  _U_IS_NAK                          HardwareSerial1ISR
+     000000E0  _ACC                               HardwareSerial1ISR
+     000000E1  _USB_INT_EN                        HardwareSerial1ISR
+     000000E2  _USB_CTRL                          HardwareSerial1ISR
+     000000E3  _USB_DEV_AD                        HardwareSerial1ISR
+     000000E4  _UEP2_DMA_L                        HardwareSerial1ISR
+     000000E5  _UEP2_DMA_H                        HardwareSerial1ISR
+     000000E6  _UEP3_DMA_L                        HardwareSerial1ISR
+     000000E7  _UEP3_DMA_H                        HardwareSerial1ISR
+     000000E8  _IE_EX                             HardwareSerial1ISR
+     000000E8  _IE_SPI0                           HardwareSerial1ISR
+     000000E9  _IE_TKEY                           HardwareSerial1ISR
+     000000E9  _IP_EX                             HardwareSerial1ISR
+     000000EA  _IE_USB                            HardwareSerial1ISR
+     000000EA  _UEP4_1_MOD                        HardwareSerial1ISR
+     000000EB  _IE_ADC                            HardwareSerial1ISR
+     000000EB  _UEP2_3_MOD                        HardwareSerial1ISR
+     000000EC  _IE_UART1                          HardwareSerial1ISR
+     000000EC  _UEP0_DMA_L                        HardwareSerial1ISR
+     000000ED  _IE_PWMX                           HardwareSerial1ISR
+     000000ED  _UEP0_DMA_H                        HardwareSerial1ISR
+     000000EE  _IE_GPIO                           HardwareSerial1ISR
+     000000EE  _UEP1_DMA_L                        HardwareSerial1ISR
+     000000EF  _IE_WDOG                           HardwareSerial1ISR
+     000000EF  _UEP1_DMA_H                        HardwareSerial1ISR
+     000000F0  _B                                 HardwareSerial1ISR
+     000000F5  _B_5                               _gptrget
+     000000F6  _B_6                               _gptrget
+     000000F7  _B_7                               _gptrget
+     000000F8  _S0_R_FIFO                         HardwareSerial1ISR
+     000000F8  _SPI0_STAT                         HardwareSerial1ISR
+     000000F9  _SPI0_DATA                         HardwareSerial1ISR
+     000000FA  _S0_T_FIFO                         HardwareSerial1ISR
+     000000FA  _SPI0_CTRL                         HardwareSerial1ISR
+     000000FB  _S0_FREE                           HardwareSerial1ISR
+     000000FB  _SPI0_CK_SE                        HardwareSerial1ISR
+     000000FC  _S0_IF_BYTE                        HardwareSerial1ISR
+     000000FC  _SPI0_SETUP                        HardwareSerial1ISR
+     000000FD  _S0_IF_FIRST                       HardwareSerial1ISR
+     000000FE  _RESET_KEEP                        HardwareSerial1ISR
+     000000FE  _S0_IF_OV                          HardwareSerial1ISR
+     000000FF  _S0_FST_ACT                        HardwareSerial1ISR
+     000000FF  _WDOG_COUNT                        HardwareSerial1ISR
+     00008584  _ROM_ADDR                          HardwareSerial1ISR
+     00008F8E  _ROM_DATA                          HardwareSerial1ISR
+     0000C5C4  _TKEY_DAT                          HardwareSerial1ISR
+     0000CBCA  _RCAP2                             HardwareSerial1ISR
+     0000CDCC  _T2COUNT                           HardwareSerial1ISR
+     0000CFCE  _T2CAP1                            HardwareSerial1ISR
+     0000E5E4  _UEP2_DMA                          HardwareSerial1ISR
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000E7E6  _UEP3_DMA                          HardwareSerial1ISR
+     0000EDEC  _UEP0_DMA                          HardwareSerial1ISR
+     0000EFEE  _UEP1_DMA                          HardwareSerial1ISR
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_1                          00000008    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BIT_BANK                            00000021    00000001 =           1. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000076 =         118. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000010  _SetupLen                          USBhandler
+     00000012  _SetupReq                          USBhandler
+     00000013  _pDescr                            USBhandler
+     00000015  _bp                                _bp
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                0000002E    000000D2 =         210. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000002E  __start__stack                     main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XSEG                                00000094    0000004A =          74. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   00000098  _UsbConfig                         USBhandler
+D:   00000099  _pinMode_PARM_2                    wiring_digital
+D:   0000009A  _digitalWrite_PARM_2               wiring_digital
+D:   0000009B  _attachInterrupt_PARM_2            WInterrupts
+D:   0000009D  _attachInterrupt_PARM_3            WInterrupts
+D:   0000009E  _Receive_Uart0_Buf                 HardwareSerial0ISR
+D:   000000AE  _Transmit_Uart0_Buf                HardwareSerial0ISR
+D:   000000BE  _Receive_Uart1_Buf                 HardwareSerial1ISR
+D:   000000CE  _Transmit_Uart1_Buf                HardwareSerial1ISR
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XISEG                               000000DE    0000001F =          31. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   000000DE  _dummy_variable                    keyboard_ino
+D:   000000E0  _button1PressPrev                  keyboard_ino
+D:   000000E1  _button2PressPrev                  keyboard_ino
+D:   000000E2  _button3PressPrev                  keyboard_ino
+D:   000000E3  _UpPoint1_Busy                     USBHIDKeyboard
+D:   000000E4  _HIDKey                            USBHIDKeyboard
+D:   000000EC  _usbMsgFlags                       USBhandler
+D:   000000ED  _keyboardProtocol                  USBhandler
+D:   000000EE  _keyboardLedStatus                 USBhandler
+D:   000000EF  _touchKeyHandler                   main
+D:   000000F1  _intFunc                           WInterrupts
+D:   000000F5  _uart0_rx_buffer_head              HardwareSerial0ISR
+D:   000000F6  _uart0_rx_buffer_tail              HardwareSerial0ISR
+D:   000000F7  _uart0_tx_buffer_head              HardwareSerial0ISR
+D:   000000F8  _uart0_tx_buffer_tail              HardwareSerial0ISR
+D:   000000F9  _uart1_rx_buffer_head              HardwareSerial1ISR
+D:   000000FA  _uart1_rx_buffer_tail              HardwareSerial1ISR
+D:   000000FB  _uart1_tx_buffer_head              HardwareSerial1ISR
+D:   000000FC  _uart1_tx_buffer_tail              HardwareSerial1ISR
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    0000006B =         107. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000066  __sdcc_program_startup             main
+C:   00000069  __sdcc_call_dptr                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             0000006B    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000006B  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             0000006E    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000078    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000078  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             0000009A    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000009A  __mcs51_genRAMCLEAR                
+C:   000000A0  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              000000C4    00000012 =          18. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000000D6    00000004 =           4. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000DA    00001037 =        4151. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000DA  _setup                             keyboard_ino
+C:   000000E9  _loop                              keyboard_ino
+C:   0000011E  _USBInit                           USBHIDKeyboard
+C:   00000131  _USB_EP1_IN                        USBHIDKeyboard
+C:   00000142  _USB_EP1_OUT                       USBHIDKeyboard
+C:   00000145  _USB_EP1_send                      USBHIDKeyboard
+C:   000001B6  _Keyboard_press                    USBHIDKeyboard
+C:   00000274  _Keyboard_release                  USBHIDKeyboard
+C:   000002EE  _Keyboard_releaseAll               USBHIDKeyboard
+C:   00000307  _Keyboard_write                    USBHIDKeyboard
+C:   0000031E  _Keyboard_print                    USBHIDKeyboard
+C:   00000376  _Keyboard_getLEDStatus             USBHIDKeyboard
+C:   0000037E  _USB_EP0_SETUP                     USBhandler
+C:   00000797  _USB_EP0_IN                        USBhandler
+C:   00000810  _USB_EP0_OUT                       USBhandler
+C:   00000825  _USBInterrupt                      USBhandler
+C:   000008EE  _USBDeviceCfg                      USBhandler
+C:   00000907  _USBDeviceIntCfg                   USBhandler
+C:   00000918  _USBDeviceEndPointCfg              USBhandler
+C:   00000932  _DeviceUSBInterrupt                main
+C:   00000971  _Uart0_ISR                         main
+C:   000009BD  _Uart1_ISR                         main
+C:   00000A09  _INT0_ISR                          main
+C:   00000A5C  _INT1_ISR                          main
+C:   00000AAF  _TOUCHKEY_ISR                      main
+C:   00000B03  _main                              main
+C:   00000B0E  ___sdcc_external_startup           main
+C:   00000B12  _pinMode                           wiring_digital
+C:   00000BC9  _digitalRead                       wiring_digital
+C:   00000C19  _digitalWrite                      wiring_digital
+C:   00000C8E  _Timer0Interrupt                   wiring
+C:   00000CA7  _micros                            wiring
+C:   00000D0E  _millis                            wiring
+C:   00000D4B  _delay                             wiring
+C:   00000DFC  _delayMicroseconds                 wiring
+C:   00000E37  _init                              wiring
+C:   00000E6C  _GPIOInterrupt                     weakOverrideGPIO
+C:   00000E6E  _Timer2Interrupt                   weakOverrideTimer2
+C:   00000E70  _nothing                           WInterrupts
+C:   00000E71  _attachInterrupt                   WInterrupts
+C:   00000EB7  _detachInterrupt                   WInterrupts
+C:   00000EE8  __gptrget                          _gptrget
+C:   00000F04  _uart0IntRxHandler                 HardwareSerial0ISR
+C:   00000F44  _uart0IntTxHandler                 HardwareSerial0ISR
+C:   00000F92  _uart1IntRxHandler                 HardwareSerial1ISR
+C:   00000FD2  _uart1IntTxHandler                 HardwareSerial1ISR
+C:   00001020  __sdcc_external_startup            _startup
+C:   00001024  __modsint                          _modsint
+C:   00001092  __moduint                          _moduint
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00001111    000001D3 =         467. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00001111  __asciimap                         USBHIDKeyboard
+C:   00001191  _DeviceDescriptor                  USBconstant
+C:   000011A3  _ConfigurationDescriptor           USBconstant
+C:   000011C5  _ReportDescriptor                  USBconstant
+C:   00001208  _LanguageDescriptor                USBconstant
+C:   0000120C  _SerialDescriptor                  USBconstant
+C:   00001220  _ProductDescriptor                 USBconstant
+C:   00001236  _ManufacturerDescriptor            USBconstant
+C:   00001244  _digital_pin_to_pwm_PGM            wiring_digital
+C:   0000126C  _digital_pin_to_port_PGM           wiring_digital
+C:   00001294  _digital_pin_to_bit_mask_PGM       wiring_digital
+C:   000012BC  _digital_pin_to_channel_PGM        wiring_digital
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XINIT                               000012E4    0000001F =          31. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+
+Files Linked                              [ module(s) ]
+
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718\sketch\keyboard.ino.cpp.rel
+                                          [  ]
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718\sketch\src\userUsbHidKeyboard\USBHIDKeyboard.c.rel
+                                          [  ]
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718\sketch\src\userUsbHidKeyboard\USBconstant.c.rel
+                                          [  ]
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718\sketch\src\userUsbHidKeyboard\USBhandler.c.rel
+                                          [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718/..\..\cores\8e5488871a3e6b9b92b1c7d7aa3aecf1\core.lib
+                                          [ main.c.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718/..\..\cores\8e5488871a3e6b9b92b1c7d7aa3aecf1\core.lib
+                                          [ wiring_digital.c.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718/..\..\cores\8e5488871a3e6b9b92b1c7d7aa3aecf1\core.lib
+                                          [ wiring.c.rel ]
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718/..\..\cores\8e5488871a3e6b9b92b1c7d7aa3aecf1\core.lib
+                                          [ weakOverrideGPIO.c.rel ]
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718/..\..\cores\8e5488871a3e6b9b92b1c7d7aa3aecf1\core.lib
+                                          [ weakOverrideTimer2.c.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/mcs51.lib
+                                          [ crtcall.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/mcs51.lib
+                                          [ crtpagesfr.rel ]
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718/..\..\cores\8e5488871a3e6b9b92b1c7d7aa3aecf1\core.lib
+                                          [ WInterrupts.c.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/libsdcc.lib
+                                          [ _gptrget.rel ]
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718/..\..\cores\8e5488871a3e6b9b92b1c7d7aa3aecf1\core.lib
+                                          [ HardwareSerial0ISR.c.rel ]
+C:\Users\DDK\AppData\Local\Temp\arduino\sketches\94DBD69AD1BE8AE5A699B661C72EB718/..\..\cores\8e5488871a3e6b9b92b1c7d7aa3aecf1\core.lib
+                                          [ HardwareSerial1ISR.c.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/libsdcc.lib
+                                          [ _startup.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/libint.lib
+                                          [ _modsint.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/libint.lib
+                                          [ _moduint.rel ]
+C:\Users\DDK\AppData\Local\Arduino15\packages\CH55xDuino\tools\sdcc\build.13407_4/lib/large_int_calc_stack_auto/libsdcc.lib
+                                          [ _bp.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0094
+PSEG = 0x0094
+ISEG = 0x0000
+BSEG = 0x0000
+
+
