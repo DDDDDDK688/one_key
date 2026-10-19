@@ -14,6 +14,7 @@ This repository contains the original `1key` version and the updated `1key_v2` v
 - No additional driver is required on most operating systems.
 - Compact design suitable for custom keyboards, shortcut keys, and macro applications.
 - Includes the keyboard PCB and enclosure design files.
+- USB C-to-C cable is supported
 
 ### Updated Functions in `1key_v2`
 
